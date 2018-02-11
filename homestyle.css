@@ -1,0 +1,57 @@
+body{
+	background: url("bg1.jpg");
+	text-align: center;
+}
+
+.container{
+ text-align: center;
+}
+
+h1{
+	margin-left: 110px;
+	margin-right: 100px;
+	background-color:#4542f4;
+	color: white;
+	font-family: "Courier New","helvetica","Times New Roman";
+	padding:15px;
+}
+
+
+nav ul li{
+	display: inline-block;
+	padding: 120px 20px 0px
+}
+
+nav ul h2 a{
+text-decoration: none;
+color:white;
+font-size: 28px;
+}
+
+nav ul h2 a:hover{
+color: green;
+transition: 0.5s;
+}
+
+nav img{
+	width:350px;
+ 	height:220px;
+}
+.navtext li{
+	display: inline-block;
+}
+
+nav img:hover{
+  transform: scale(1.2);
+  transition: 0.5s
+}
+
+footer
+{
+	background-color: #4542f4;
+	backface-visibility: 0.3
+	color: white;
+	padding: 20px;
+	height: 40px;
+	width: 90%;
+}

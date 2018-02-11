@@ -1,0 +1,38 @@
+body{
+	background-image: url("bg4.jpg");
+	padding-bottom: 30%;
+	background-position: fixed;
+	text-align: center;
+}
+
+.menu nav ul a{
+    font-size: 30px;
+    color: white;
+    text-decoration:none;
+    padding: 0px 60px 10px;
+ 	}
+
+.menu nav ul a:hover{
+	color:green;
+	border:3px;
+	transition: 0.5s;
+}
+
+.content{
+	padding: 80px 40px 20px;
+}
+
+.content nav ul li{
+	display: inline-block; 
+    padding-bottom:10px;  
+}
+
+ .content img{
+	width: 250px;
+	height: 300px;
+ }
+
+ img:hover{
+ 	transform: scale(1.2);
+ 	transition: .6s;
+ }
